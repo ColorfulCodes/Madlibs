@@ -1,0 +1,74 @@
+# I am programming a Madlibs story
+
+print "Welcome to this game. Follow all instructions"
+
+name = raw_input("Please print your name in the prompt below. \n> ")
+
+print "Now I would like for you to give me three adjectives. Please fill in an adjective with each prompt."
+
+print "Type adjective one below:"
+ad1 = raw_input("> ")
+print "Type adjective two below:"
+ad2 = raw_input("> ")
+print "Type adjective three below:"
+ad3 = raw_input("> ")
+
+print "Now I need you to give me three verbs"
+
+print "Type verb one below:"
+v1 = raw_input("> ")
+print "Type verb two below:"
+v2 = raw_input("> ")
+print "Type verb three below:"
+v3 = raw_input("> ")
+
+print "Okay great! Now I need you to type in four different nouns below."
+
+print "Type noun one below:"
+n1 = raw_input("> ")
+print "Type noun two below:"
+n2 = raw_input("> ")
+print "Type noun three below:"
+n3 = raw_input("> ")
+print "Type noun three below:"
+n4 = raw_input("> ")
+
+print "Yayyy! We are almost finished. Now I need for you to input one thing into each of the choices."
+
+print "I need you to type one animal(any) below:"
+
+animal = raw_input("> ")
+
+print "I need you to type one food(any) below:"
+
+food = raw_input("> ")
+
+print "I need you to type one fruit(any) below:"
+
+fruit = raw_input("> ")
+
+print "I need you to type one number(any) below:"
+
+number = raw_input("> ")
+
+print "I need you to type one superhero(any) below:"
+
+superhero = raw_input("> ")
+
+print "I need you to type one country(any) below:"
+
+country = raw_input("> ")
+
+print "I need you to type one dessert(any) below:"
+
+dessert = raw_input("> ")
+
+print "I need you to type a year (any) below:"
+
+year = raw_input("> ")
+
+#The template for the story
+STORY = "This morning I woke up and felt %s because %s was going to finally %s over the big %s. On the other side of the %s 
+were many %ss protesting to keep %s in stores. The crowd began to %s to the rythym of the %s, which made all of the %ss very %s. %s tried to %s into the sewers and found %s rats. Needing help, %s quickly called %s. %s appeared and saved %s by flying to %s and dropping %s into a puddle of %s. %s then fell asleep and woke up in the year %s, in a world where %ss ruled the world." % (ad1, name, v1,ad2, n1, n2, animal, food, v2, n3, fruit, ad3, name, v3, 4, superhero, superhero, name, country, name, dessert, name, year, n4)
+
+print STORY
